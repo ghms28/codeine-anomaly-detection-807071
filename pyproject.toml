@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "codeine-anomaly-detection"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.11"
+tensorflow = "^2.18.0"
+pandas = "^2.2.3"
+numpy = "2.0.2"
+matplotlib = "^3.10.1"
+seaborn = "^0.13.2"
+openpyxl = "^3.1.5"
+scikit-learn = "^1.6.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
