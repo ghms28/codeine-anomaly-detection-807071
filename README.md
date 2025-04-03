@@ -1,4 +1,4 @@
-• Title and Team members 
+## Title and Team members 
 • [Section 1] Introduction – Briefly describe your project. 
 • [Section 2] Methods – Describe your proposed ideas (e.g., features, design 
 choices, algorithm(s), training overview, etc.) and your environment so that: 
