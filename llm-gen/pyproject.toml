@@ -1,20 +1,20 @@
 [tool.poetry]
-name = "codeine-anomaly-detection"
+name = "gen"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Mohammad <ghms28@yahoo.com>"]
 readme = "README.md"
-package-mode = false
 
 [tool.poetry.dependencies]
-python = "3.11.11"
-tensorflow = "^2.18.0"
+python = ">=3.11.11,<3.13"
+vllm = "^0.8.5.post1"
 pandas = "^2.2.3"
-numpy = "2.0.2"
-matplotlib = "^3.10.1"
-seaborn = "^0.13.2"
+numpy = "^2.2.5"
 openpyxl = "^3.1.5"
-scikit-learn = "^1.6.1"
+matplotlib = "^3.10.3"
+seaborn = "^0.13.2"
+statsmodels = "^0.14.4"
+
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
